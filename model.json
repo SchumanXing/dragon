@@ -1,0 +1,27 @@
+[{
+    "baseUrl": "https://www.66e.cc",
+    "categoryList": {
+        "baseUrl": "class:channeltype->tag:h2:0->tag:a:1->value:href",
+        "lastPageUrl": "#baseUrl+/index_+#pageIndex+class:pagebox:0->tag:a:1->value:href->split:.:-1",
+        "name": "class:channeltype->tag:h2:0->tag:a:1->value:innertext",
+        "nextPageUrl": "class:pagebox:0->tag:a:-2->value:href",
+        "pageIndex": "1",
+        "playList": {
+            "baseUrl": "class:listBox:0->tag:ul:0->tag:li->class:listInfo:0->tag:a:0->value:href",
+            "coverImg": "class:listBox:0->tag:ul:0->tag:li->class:listimg:0->tag:img:0->value:src",
+            "desc": "id:text:0->tag:p->value:innertext",
+            "detailImgs": "id:text:0->tag:img->value:src",
+            "name": "class:listBox:0->tag:ul:0->tag:li->class:listInfo:0->tag:a:0->value:innertext",
+            "resModel": {
+                "baseUrl": "id:text:0->tag:tr->tag:a:0->value:href",
+                "name": "id:text:0->tag:tr->value:innertext"
+            },
+            "updateDate": "class:listBox:0->tag:ul:0->tag:li->class:listInfo:0->tag:p:2->value:innertext"
+        }
+    },
+    "charset": "gb2312",
+    "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+    },
+    "name": "66"
+}]
